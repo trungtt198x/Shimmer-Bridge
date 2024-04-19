@@ -54,9 +54,10 @@ export const AppHeader = observer(() => {
         <Link href="/bridge" passHref legacyBehavior>
           <NavLink pathname={pathname}>Bridge</NavLink>
         </Link>
-        {/* <Link href='/oft' passHref legacyBehavior>
+         <Link href='/oft' passHref legacyBehavior>
           <NavLink pathname={pathname}>OFT</NavLink>
         </Link>
+        {/*
         <Link href='/onft' passHref legacyBehavior>
           <NavLink pathname={pathname}>ONFT</NavLink>
         </Link>

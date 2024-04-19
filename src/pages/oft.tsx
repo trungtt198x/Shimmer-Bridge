@@ -8,8 +8,8 @@ import {PageLayout} from '@/core/ui/PageLayout';
 import {NextPageWithLayout} from '../../types/next';
 
 const OftPage: NextPageWithLayout = () => {
-  // return <OFTBridge />;
-  return null;
+  return <OFTBridge />;
+  // return null;
 };
 
 OftPage.getLayout = (page) => (
